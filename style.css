@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    max-width: 1400px;
+    width: 100%; /* add "control ecran*/
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px; /* Modification font size p*/
 }
 
 .tight-width-whitespace {
@@ -705,7 +707,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
 
