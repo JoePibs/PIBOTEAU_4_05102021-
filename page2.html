@@ -43,7 +43,7 @@
 						<div class="navbar-header">
 							<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.jpg"
 									alt="Chouette agence web design logo" height="40" width="250" /></a>
-							<button aria-label="Ouvrir le menu" id="nav-toggle" type="button"
+							<button tabindex="1" aria-label="Ouvrir le menu" id="nav-toggle" type="button"
 								class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
 									class="icon-bar"></span><span class="icon-bar"></span>
@@ -52,10 +52,10 @@
 						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav">
 								<li>
-									<a href="index.html">Accueil</a>
+									<a href="index.html" tabindex="2">Accueil</a>
 								</li>
 								<li>
-									<a href="page2.html">Nous contacter</a>
+									<a href="page2.html" tabindex="3">Nous contacter</a>
 									<!-- modification of text for comprehension-->
 								</li>
 							</ul>
@@ -95,33 +95,33 @@
 								<label id="nom">
 									Nom
 								</label>
-								<input aria-labelledby="nom" id="name" class="form-control" required />
+								<input tabindex="3" aria-labelledby="nom" id="name" class="form-control" required />
 								<!--Modification aria-->
 							</div>
 							<div class="form-group">
 								<label id="email">
 									Adresse email
 								</label>
-								<input aria-labelledby="email" id="courriel" class="form-control" type="email"
-									required />
+								<input tabindex="4" aria-labelledby="email" id="courriel" class="form-control"
+									type="email" required />
 								<!--add aria-->
 							</div>
 							<div class="form-group">
 								<label id="texte">
 									Comment nous avez-vous connu ?
 								</label>
-								<input aria-labelledby="texte" class="form-control" type="text" required
+								<input tabindex="5" aria-labelledby="texte" class="form-control" type="text" required
 									id="input_504" />
 								<!--Modification type & aria-->
 							</div>
 							<div class="form-group">
 								<label id="projet">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><input aria-labelledby="projet" type="textarea" id="message"
+								</label><input tabindex="6" aria-labelledby="projet" type="textarea" id="message"
 									class="form-control" rows="4" cols="50" required></input>
 								<!--Mondification input & aria-->
 							</div>
-							<button arial-label=" Envoyer"
+							<button tabindex="7" arial-label=" Envoyer"
 								class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 								Envoyer
 							</button>
