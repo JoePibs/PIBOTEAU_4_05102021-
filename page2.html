@@ -63,6 +63,7 @@
 					</nav>
 				</div>
 			</div>
+		</div>
 	</header>
 	<!-- bloc-0 END -->
 	<main>
@@ -89,8 +90,7 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent."
-							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1">
 							<div class="form-group">
 								<label id="nom">
 									Nom
@@ -117,12 +117,12 @@
 							<div class="form-group">
 								<label id="projet">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><input tabindex="6" aria-labelledby="projet" type="textarea" id="message"
-									class="form-control" rows="4" cols="50" required></input>
+								</label><input tabindex="6" aria-labelledby="projet" type="text" id="message"
+									class="form-control" required />
 								<!--Mondification input & aria-->
 							</div>
-							<button tabindex="7" arial-label=" Envoyer"
-								class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+							<button tabindex="7" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
+								type="submit">
 								Envoyer
 							</button>
 						</form>
@@ -136,8 +136,8 @@
 	<!-- bloc-7 END -->
 
 	<!-- ScrollToTop Button -->
-	<a arial-label="Bouton Scroll vers le haut" class="bloc-button btn btn-d scrollToTop"
-		onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+	<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+			class="fa fa-chevron-up"></span></a>
 	<!--Add aria-->
 	<!-- ScrollToTop Button END-->
 
